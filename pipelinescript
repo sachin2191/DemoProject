@@ -1,4 +1,4 @@
 node {
   stage 'Run JMeter Test'
-  sh '/Volumes/DATA/Jmeter/apache-jmeter-5.0/bin/jmeter.sh -n -t /Volumes/DATA/Jmeter/apache-jmeter-5.0/bin/DemoTest2.jmx -l demo.jtl'
+  sh '/Volumes/DATA/Jmeter/apache-jmeter-5.0/bin/jmeter.sh -n -t /Volumes/DATA/Jmeter/apache-jmeter-5.0/bin/DemoTest2.jmx -Jusers=5 -l demo.jtl'
 }
